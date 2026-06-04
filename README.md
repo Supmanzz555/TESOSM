@@ -61,6 +61,16 @@ The pack is primarily developed as a hobby project for a small group of friends.
 * Balancing
 
 
+TESOSM is designed to remain challenging throughout the entire game.
+
+The goal is not to make the player weak forever, nor is it to create artificial difficulty through excessive grind or progression gates. Instead, the pack aims to maintain a sense of danger and meaningful progression from early game to endgame.
+
+as hostile mobs become stronger, players should also gain access to stronger tools, equipment, abilities, and strategies. Difficulty is intended to scale alongside player power rather than simply overwhelming the player with increasingly unfair encounters.
+
+players are expected to become powerful over time. Becoming overpowered is part of the Minecraft modded experience and is not something TESOSM seeks to completely remove. However, the world should continue presenting new threats, challenges, and encounters that encourage players to make use of that power.
+
+There may be **exceptionally powerful items**, equipment, or endgame rewards that significantly exceed the normal power curve. These are intentional and serve as long-term goals for dedicated players.
+
 Large-scale progression systems and recipe rewrites are currently not a priority and may remain limited throughout the project's lifetime.
 
 ---
