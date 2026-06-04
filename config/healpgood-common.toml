@@ -1,0 +1,46 @@
+#This selection will determine the appearance of Hearts:
+#	Dynamic - Hearts change appearance based on date
+#	Default - Hearts never change based on season
+#	Christmas - Hearts always appear as Candy Canes
+#	Pride Month - Hearts always appear rainbow
+#	April Fools - Hearts always appear as Bagels (and play a funni sound when gathered...)
+seasonalHearts = "Dynamic"
+#If true, the Ender Dragon will drop Hearts similar to how it drops XP
+dragonDropsHearts = true
+#If true, the Ender Dragon will drop Souls on Death
+dragonDropsSouls = true
+#The Max Horizontal Distance you can be from a Heart Lantern to receive Regeneration
+#Range: 0.0 ~ 1.7976931348623157E308
+heartLanternX = 7.0
+#The Max 2Vertical Distance you can be from a Heart Lantern to receive Regeneration
+#Range: 0.0 ~ 1.7976931348623157E308
+heartLanternY = 3.5
+#The Default Chance for a Mob to drop Hearts on Death
+#Range: 0.0 ~ 1.0
+regularDropChance = 0.15
+#This Amount is Subtracted from the Default Drop Chance if a Mob is Passive
+#Range: -1.0 ~ 1.0
+passiveAugment = -0.4
+#The Amount here will be multiplied by a mobs Total Health, and then added to the Default Drop Chance
+#Range: -1.0 ~ 1.0
+healthAugment = 0.01
+#This will be used to determine the Amount of Health required to drop Extra Hearts.
+#	Health / Amount = Hearts
+#
+#	Setting this to 0 prevents extra hearts from dropping
+#Range: > 0
+healthToHearts = 7
+#Everytime a mob drops an Extra Heart, the chance for them to drop another will be decreased by this amount!
+#Range: 0.0 ~ 1.0
+chanceDecay = 0.05
+#If False, your Permanent Hearts will remain, but won't be replenished when you respawn
+healOnRespawn = false
+#The Maximum amount of Heart Crystals that a player can consume (Max Temp Hearts)
+#Range: > 0
+heartCrystalMax = 10
+#The Maximum amount of Heart Contaners that a player can consume (Max Perm Hearts)
+#Range: > 0
+heartContainerMax = 10
+#Whether or not Heart Containers should glow
+heartContainerGlow = false
+

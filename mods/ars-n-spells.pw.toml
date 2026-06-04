@@ -1,0 +1,13 @@
+name = "Ars 'n Spells"
+filename = "ars_n_spells-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7dffc8c1f38f76e1569d7d64fd186f31567eb23"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8163192
+project-id = 1447914

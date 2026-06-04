@@ -1,0 +1,13 @@
+name = "[TaCZ]  Curios For Ammo Box"
+filename = "curios_for_ammo_box-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fcc13aca679f9ade9fde2b3676559a9a753e156e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7673443
+project-id = 1339813

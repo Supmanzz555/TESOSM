@@ -1,0 +1,8 @@
+name = "Void-fog"
+filename = "Void-Fog-2.10.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JRC9aXm9/versions/cQa4Oduh/Void-Fog-2.10.0.jar?mr_download_reason=standalone"
+hash-format = "sha256"
+hash = "e69bea90dfee7649c69e0a93c5ea1b15d9fd4c7531bdb79c4a6c932cc0cf48fb"

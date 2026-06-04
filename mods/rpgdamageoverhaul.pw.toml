@@ -1,0 +1,13 @@
+name = "RPGDamageOverhaul"
+filename = "rpgdamageoverhaul-1.2.2-forge-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "355835275632062f079d2ddd410ac6fa7fc40aff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8012328
+project-id = 1293843

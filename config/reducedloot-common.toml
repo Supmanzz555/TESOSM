@@ -1,0 +1,6 @@
+#Chance that an item remains in the loot (0.0 = never, 1.0 = always)
+#Range: 0.0 ~ 1.0
+lootChance = 1.0
+#Loot tables that should NOT be affected (namespace:path)
+chestBlacklist = ["namespace:chests/chest_id"]
+

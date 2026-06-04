@@ -1,0 +1,13 @@
+{
+  "modEnabled": true,
+  "scaleFactor": 3,
+  "toggleMode": false,
+  "hideEmptySlots": false,
+  "useCenterItemPreview": true,
+  "useCenterPreviewDescription": true,
+  "allowMovementWhileOpen": true,
+  "useAutoSortSlots": false,
+  "useAutoEquipArmor": true,
+  "useSwapToRecentOnNoSelect": false,
+  "usePreviewPreviousItemOnNoSelect": false
+}

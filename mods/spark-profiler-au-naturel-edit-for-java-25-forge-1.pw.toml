@@ -1,0 +1,13 @@
+name = "Spark Profiler - Au Naturel Edit"
+filename = "spark-1.10.56-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21dab935df6f26d4adfdf6f153114320bcea49d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7383677
+project-id = 1399454

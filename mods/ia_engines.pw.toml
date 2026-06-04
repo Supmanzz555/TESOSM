@@ -1,0 +1,13 @@
+name = "Immersive Aircraft: Better Engines"
+filename = "ia_engines-3.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kNsl999k/versions/KdCCMFVk/ia_engines-3.0.2.jar"
+hash-format = "sha512"
+hash = "3751a30a03aed562d4596a78e01c332c674e24e9150a7b878c894ffb5a186ce67a53c3bfc4e3c387437144a3a1361df8734a8130f6bc69c857132b3076e1fdb6"
+
+[update]
+[update.modrinth]
+mod-id = "kNsl999k"
+version = "KdCCMFVk"

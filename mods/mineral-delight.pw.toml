@@ -1,0 +1,13 @@
+name = "Mineral Delight"
+filename = "mineraldelight-2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d72cd7310fc3dbe7051442ce2e5a9107a3769326"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8148736
+project-id = 1038816

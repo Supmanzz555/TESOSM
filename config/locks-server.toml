@@ -1,0 +1,41 @@
+#Maximum amount of blocks that can be locked at once
+#Range: > 1
+"Max Lockable Volume" = 6
+#Blocks that can be locked. Each entry is the mod domain followed by the block's registry name. Can include regular expressions
+"Lockable Blocks" = [".*chest", ".*barrel", ".*hopper", ".*door", ".*trapdoor", ".*fence_gate", ".*shulker_box"]
+#Block tags whose members can be locked. Each entry is a tag resource location (e.g. 'locks:lockable'). The 'locks:lockable' tag is always included
+"Lockable Tags" = ["locks:lockable"]
+#Open locks can be removed with an empty hand while sneaking
+"Allow Removing Locks" = true
+#Locked blocks cannot be destroyed in survival mode
+"Protect Lockables" = true
+#Lock blocks with just one click! It's magic! (Will probably fail spectacularly with custom doors, custom double chests, etc)
+"Easy Lock" = true
+#When enabled, netherite lock picks never lose durability or break during lock picking
+"Netherite Lockpick Unbreakable" = false
+
+[Display]
+	#Hide the lock ID line from tooltips (both inventory and HUD)
+	"Hide Lock ID" = false
+	#Hide enchantment lines from the HUD floating tooltip (inventory tooltips are unaffected)
+	"Hide HUD Enchantments" = false
+	#Hide the floating HUD tooltip entirely when looking at a lock in the world (hides item name, enchantments, and all other info)
+	"Hide HUD Tooltip" = false
+
+#Enable or disable individual lock enchantments. Disabled enchantments will not appear in the enchanting table, trades, or loot, and their effects will be ignored on existing items.
+[Enchantments]
+	#Damages the player when a lock pick breaks
+	"Enable Shocking" = true
+	#Makes locks harder to pick (reduces lock pick break chance)
+	"Enable Sturdy" = true
+	#Restricts which lock picks can open the lock
+	"Enable Complexity" = true
+	#Suppresses the rattle sound when accessing a locked block without a key
+	"Enable Silent" = true
+	#Chance to instantly unlock without the lock picking minigame
+	"Enable Auto Pick" = true
+	#Increases explosion resistance of locked blocks
+	"Enable Reinforced" = true
+	#Remembers who placed the lock; that player can open it without a key
+	"Enable Awareness" = true
+

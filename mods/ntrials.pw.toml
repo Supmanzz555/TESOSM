@@ -1,0 +1,13 @@
+name = "NewTrials"
+filename = "ntrials-2.0.0-HOTFIX.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5989212a821ba8a277839ae190db0f1a08c416a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7762779
+project-id = 1355816

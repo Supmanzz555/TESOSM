@@ -1,0 +1,13 @@
+name = "AllTheOres SpawnNoMore"
+filename = "alltheores-spawnnomore-0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e0kSkTVX/versions/C2yeMxQD/alltheores-spawnnomore-0.1.jar"
+hash-format = "sha512"
+hash = "a8cd8332cf688b409221a1438fc66866f1fbbe6372f5c13d3217efd41aff7b37fb1bb6bcebaa0d06ba7f9c5ac66f974329f74c29f5a07ed17167be82ae70bcf9"
+
+[update]
+[update.modrinth]
+mod-id = "e0kSkTVX"
+version = "C2yeMxQD"

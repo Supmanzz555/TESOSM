@@ -1,0 +1,9 @@
+#Effect from magic gel will extend exist effect
+stackingEffects = true
+#Effect duration per hit. Potion duration / effect duration = magic gel uses
+#Range: > 1
+effectDurationPerHit = 5
+#Max amount of magic gels applied for single item
+#Range: > 1
+magicGelsLimit = 2
+

@@ -1,0 +1,8 @@
+name = "nobroken"
+filename = "nobroken-mc1.20.1-fabric-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Lyeon1uY/versions/dRgofRu1/nobroken-mc1.20.1-fabric-1.0.1.jar?mr_download_reason=standalone"
+hash-format = "sha256"
+hash = "ea53530d21fb3e855e8cc2c109b8a99d5b5e6c47462bd6b08bd29fb56c4e8826"

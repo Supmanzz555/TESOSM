@@ -1,0 +1,13 @@
+name = "Permanent Sponges"
+filename = "PermanentSponges-v8.1.2-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e23b8497cd229a5a841113b5458fd0bf583bc038"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5242499
+project-id = 852664

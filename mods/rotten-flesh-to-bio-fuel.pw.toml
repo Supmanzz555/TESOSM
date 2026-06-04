@@ -1,0 +1,13 @@
+name = "Mekanism Addon: Rotten Flesh To Bio Fuel"
+filename = "rftb1201-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T9EYZ6cV/versions/aGwzCsvS/rftb1201-1.0.0.jar"
+hash-format = "sha512"
+hash = "3e62fd38aea5e6243acbedfdcaa1c733190ba6b65ca53e4795bf32850f0c50acadf11eb347b446c41bd9f72c52e7f30b2bcedfb459f2afdba5c1fc70134dcfef"
+
+[update]
+[update.modrinth]
+mod-id = "T9EYZ6cV"
+version = "aGwzCsvS"

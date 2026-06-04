@@ -1,0 +1,6 @@
+# You can put values here to adjust the stack size, eg: [minecraft:ender_pearl=16]
+minecraft:potion=64
+minecraft:splash_potion=64
+minecraft:lingering_potion=64
+minecraft:white_bed=16
+minecraft:ender_pearl=64

@@ -1,0 +1,13 @@
+name = "Apotheosis Balance Configurator"
+filename = "apotheosis_balance-1.20.1-1.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f5b680707b15de89cebfa53e112165c5c9c40a99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8137640
+project-id = 1379530

@@ -1,0 +1,60 @@
+
+["Display Options"]
+	#Enable custom mana overlay (disable to use Ars Nouveau's debug numbers)
+	enableCustomOverlay = true
+	#Show mana percentage
+	showPercentage = true
+	#Show visual mana bar
+	showManaBar = false
+	#When enabled, numeric mana text never disappears
+	permanentDisplay = false
+
+[Position]
+	#X offset in pixels from mana bar center (negative = left, positive = right)
+	#Range: -500 ~ 500
+	xOffset = 45
+	#Y offset in pixels from mana bar text level (negative = up, positive = down)
+	#Range: -100 ~ 100
+	yOffset = -7
+	#Mana bar X offset in pixels
+	#Range: -500 ~ 500
+	manaBarXOffset = -205
+	#Mana bar Y offset in pixels
+	#Range: -500 ~ 500
+	manaBarYOffset = 10
+	#Use percentage positioning instead of fixed positioning
+	usePercentageMode = true
+	#Enable adaptive positioning that adjusts for different screen sizes and GUI scales
+	adaptivePositioning = true
+	#Percentage from left edge (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	percentFromLeft = 0.18
+	#Percentage from top edge (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	percentFromTop = 0.875
+
+[Appearance]
+	#Scale multiplier for text size
+	#Range: 0.1 ~ 5.0
+	textScale = 1.0
+	#Text rotation in degrees
+	#Range: -360.0 ~ 360.0
+	rotation = 0.0
+	#Text transparency (0-255, where 255 is fully opaque)
+	#Range: 0 ~ 255
+	transparency = 255
+	#Enable text shadow for better visibility
+	enableShadow = true
+
+[Colors]
+	#Color code for mana numbers (hex format: #RRGGBB)
+	manaColor = "#55FFFF"
+	#Color code for text (hex format: #RRGGBB)
+	textColor = "#FFD100"
+	#Color code for shadow text (hex format: #RRGGBB)
+	shadowColor = "#7F5F00"
+
+[Format]
+	#Display format (%c = current, %m = max)
+	displayFormat = "%c/%m"
+

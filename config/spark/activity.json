@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Guuhamlek",
+      "uniqueId": "05b76382-a399-4d62-9848-638f9318425f"
+    },
+    "time": 1776935070914,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VBjdraBlZf"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Guuhamlek",
+      "uniqueId": "05b76382-a399-4d62-9848-638f9318425f"
+    },
+    "time": 1776934855357,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jcwZvyn6ts"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Guuhamlek",
+      "uniqueId": "05b76382-a399-4d62-9848-638f9318425f"
+    },
+    "time": 1776881842073,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pNDqE9VfYq"
+    }
+  }
+]

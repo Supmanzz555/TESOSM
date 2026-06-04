@@ -1,0 +1,13 @@
+name = "Radial Hot Bar"
+filename = "radialhotbar-0.5.1+1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5f2b223e7754eb3ef31ad7272a63bb88d213128"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7960632
+project-id = 1434411

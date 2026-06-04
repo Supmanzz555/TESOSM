@@ -1,0 +1,13 @@
+name = "Trek"
+filename = "trek-B0.6.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/h2jngREY/versions/Pft1slmq/trek-B0.6.1.1.jar"
+hash-format = "sha512"
+hash = "8b6a422c8d8184ca714c0c6e45d7e89d7c9d3462169d51acc360dff677f5f0dc2f0cf0f17c9797c039103cc649a49b08d91e7280278f639e1aac06366509e0b6"
+
+[update]
+[update.modrinth]
+mod-id = "h2jngREY"
+version = "Pft1slmq"

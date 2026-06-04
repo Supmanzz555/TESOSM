@@ -1,0 +1,13 @@
+name = "Cave Spider Spawn"
+filename = "cavespiderspawn-1.20.1-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70b52bc90f03b1d80c163d2027466d0803d55f1f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5572847
+project-id = 952294

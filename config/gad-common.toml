@@ -1,0 +1,22 @@
+
+[recipes]
+	#If true, active vanilla crafting table recipes are also shown in the GAD crafting menu.
+	includeVanillaCraftingTableRecipes = true
+	#If true, recipes that do not fit in the player 2x2 crafting grid require a nearby crafting table.
+	requireCraftingTableForLargeRecipes = true
+	#How far away a crafting table can be and still count for large recipes.
+	#Range: 1.0 ~ 32.0
+	craftingTableSearchRange = 6.0
+	#If true, large recipes only count nearby crafting tables that are visible to the player.
+	requireCraftingTableLineOfSight = true
+
+[inventory]
+	#If true, hides the 2x2 crafting grid from the player inventory screen.
+	hidePlayerInventoryCraftingGrid = true
+	#If true, clicking the recipe book button in inventory opens the GAD menu instead.
+	recipeButtonOpensGad = true
+	#If true, right-clicking a crafting table opens the GAD menu instead of vanilla crafting.
+	rightClickCraftingTableOpensGad = true
+	#If true, enables the Manual Craft mode in the GAD crafting menu.
+	enableManualCraft = true
+

@@ -1,0 +1,13 @@
+name = "We Got Runners!"
+filename = "wegotrunnners-0.7.1.1.20.1[SPANISH TRANSLATION UPDATE].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4c30ae5060c407d514bd342a72b8d8be00db432"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5509865
+project-id = 531381

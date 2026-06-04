@@ -1,0 +1,13 @@
+name = "Auto Pickup Filter [Loot Filter]"
+filename = "Auto Pickup Filter - Forge 1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "499b0fe27822086e47e421b283a0677ee9c069ae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7404049
+project-id = 1408266

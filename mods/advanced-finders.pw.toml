@@ -1,0 +1,13 @@
+name = "Advanced Finders"
+filename = "AdFinders-1.20.1-9.1.14.0-build.2196.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5703cb8bfd92ea463c214913dcf43209fb2814fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8169193
+project-id = 260925

@@ -1,0 +1,13 @@
+name = "Superior Spellcasters"
+filename = "superior_spellcasting-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5ab6df037ddd76042265418e68abc61a4809d71"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8189786
+project-id = 1480046

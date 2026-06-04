@@ -1,0 +1,32 @@
+{
+	// Players level required to craft recall staffs (wooden and netherite staffs don't require level to craft)
+	"recallStaffCraftCost": 0,
+	"resetStaffCooldownAfterDeath": true,
+	"recallingSummonsLightningBolt": true,
+	// This option is client sided
+	"enableTooltipsForRecallStaffs": true,
+	"woodenRecallStaffCooldown": 1400,
+	"copperRecallStaffCooldown": 900,
+	"ironRecallStaffCooldown": 720,
+	"goldenRecallStaffCooldown": 590,
+	"diamondRecallStaffCooldown": 120,
+	"netheriteRecallStaffCooldown": 80,
+	// When true, players won't be able to recall with level lower than staff's usage cost
+	"checkPlayersLevelBeforeRecall": true,
+	// When true, players won't be able to recall with level lower than calibrated staff's usage cost
+	"checkPlayersLevelBeforeCalibratedRecall": true,
+	"woodenRecallCost": 10,
+	"copperRecallCost": 2,
+	"ironRecallCost": 2,
+	"goldenRecallCost": 1,
+	"diamondRecallCost": 1,
+	"netheriteRecallCost": 0,
+	"recallingWithHorseAdditionalCost": 1,
+	"calibratedStaffAdditionalCost": 5,
+	// 20 = 1s. If this value is lower than 40, player won't get Call of Being and won't teleport back to recovery altar
+	"invulnerabilityTimeAfterUsingRecoveryAltar": 20,
+	// Number of levels required for last charges (without using Echo Shards)
+	"recoveryAltarChargingLevelCost": 1,
+	// When set to 0, recovery altar will be charged only with echo shards; when set to 6 - only with player levels
+	"recoveryAltarLevelChargesCount": 6
+}

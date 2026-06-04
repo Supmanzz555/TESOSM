@@ -1,0 +1,13 @@
+name = "Keep Durable"
+filename = "keepdurable1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea6d973a3596561d373cd6dcb093df7d07880dd0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5585613
+project-id = 1035972

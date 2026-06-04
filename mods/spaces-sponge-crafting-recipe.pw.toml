@@ -1,0 +1,13 @@
+name = "Space's Sponge Crafting Recipe"
+filename = "sponge-crafting-recipe-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c6faa94045c04739237d6a6fa092e56baef0a531"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7172870
+project-id = 1376338

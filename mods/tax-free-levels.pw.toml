@@ -1,0 +1,13 @@
+name = "Tax Free Levels"
+filename = "TaxFreeLevels-1.4.20-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0030b0c40e19a4f2cd79a11f98ab46d30abc3f01"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8134256
+project-id = 462128

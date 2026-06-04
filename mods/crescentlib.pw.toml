@@ -1,0 +1,13 @@
+name = "CrescentLib"
+filename = "crescentlib-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc3774985002b5f603ab8267748edd0d8bd3936c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5937973
+project-id = 1147883

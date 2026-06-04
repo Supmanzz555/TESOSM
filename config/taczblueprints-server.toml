@@ -1,0 +1,60 @@
+
+[tables]
+	#If false, disables the GunSmith table recipes for guns.
+	enableGunTable = false
+	#If false, disables the GunSmith table recipes for attachments.
+	enableAttachmentTable = true
+	#If false, disables the GunSmith table recipes for ammo.
+	enableAmmoTable = true
+
+[unlocks]
+	#List of gun IDs enabled by default. Example: ["tacz:gun/ak47", "tacz:gun/m4a1"]
+	enabledGuns = []
+	#List of attachment IDs enabled by default. Example: ["tacz:attachment/scope_4x"]
+	enabledAttachments = []
+	#List of ammo IDs enabled by default. Example: ["tacz:ammo/556mm"]
+	enabledAmmo = []
+
+[loot]
+	#Global loot generation settings for blueprints in structure chests.
+	#Chance (0.0 to 1.0) that blueprints will be added to a chest
+	#Range: 0.0 ~ 1.0
+	chestChance = 0.05
+	#Minimum number of blueprints to add when loot triggers
+	#Range: 1 ~ 64
+	chestMinCount = 1
+	#Maximum number of blueprints to add when loot triggers
+	#Range: 1 ~ 64
+	chestMaxCount = 1
+	#Optional per-loot-table overrides in format: minecraft:chests/jungle_temple=1.0,4,6
+	lootTableOverrides = []
+
+[weaponTypeWeights]
+	#Relative weights for each weapon type when generating blueprint loot.
+	#Higher values = more likely to drop. Set to 0 to disable a type.
+	#Example: If Pistol=100 and Rifle=50, pistols are 2x more likely than rifles.
+	#Weight for Pistol blueprints
+	#Range: 0 ~ 1000
+	pistolWeight = 100
+	#Weight for SMG blueprints
+	#Range: 0 ~ 1000
+	smgWeight = 80
+	#Weight for Rifle blueprints
+	#Range: 0 ~ 1000
+	rifleWeight = 70
+	#Weight for Shotgun blueprints
+	#Range: 0 ~ 1000
+	shotgunWeight = 60
+	#Weight for Sniper blueprints
+	#Range: 0 ~ 1000
+	sniperWeight = 40
+	#Weight for Machine Gun blueprints
+	#Range: 0 ~ 1000
+	mgWeight = 30
+	#Weight for RPG blueprints
+	#Range: 0 ~ 1000
+	rpgWeight = 20
+	#Weight for unrecognized weapon types
+	#Range: 0 ~ 1000
+	defaultWeight = 50
+

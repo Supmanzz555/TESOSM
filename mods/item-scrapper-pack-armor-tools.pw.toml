@@ -1,0 +1,13 @@
+name = "Item Scrapper Pack - Armor & Tools"
+filename = "Item Scrapper Pack - Armor  Tools.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d9ca300106e1b32c9859f8feb07f56526019873d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6658722
+project-id = 1288136

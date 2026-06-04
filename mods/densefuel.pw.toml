@@ -1,0 +1,13 @@
+name = "Compressed Fuel"
+filename = "densefuel-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MtxycBD6/versions/jw94k00n/densefuel-1.0.0.jar"
+hash-format = "sha512"
+hash = "89dc43cbcc35674102e97b77f9512fc8752c7d72be571f5a49f18f8f77668f241a4190f9b076bd056ce7aab0a91a0088876b6b652c401c348837898da90be41a"
+
+[update]
+[update.modrinth]
+mod-id = "MtxycBD6"
+version = "jw94k00n"

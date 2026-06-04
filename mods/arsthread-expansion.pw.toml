@@ -1,0 +1,13 @@
+name = "ArsThread Expansion"
+filename = "arsthreadexpansion-1.20.1-1.7.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f35d08b72cfd07ea877d246095cef1ab8036f4bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8130843
+project-id = 1419545

@@ -1,0 +1,13 @@
+name = "Respawn Token"
+filename = "resptoken-v2.2.4.a-1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4bb0e4c7b3d2e3bf552f85d056eb2a6912dbb08"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7515447
+project-id = 1216688

@@ -1,0 +1,13 @@
+name = "Healing Pretty Good [FORGE]"
+filename = "healpgood-1.5.3-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6db9845f164b19c95c7a9d2b393dc7718ac6883b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8180075
+project-id = 1037939

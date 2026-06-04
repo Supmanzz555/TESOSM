@@ -1,0 +1,127 @@
+
+[general]
+	#Enable verbose logging for debugging.
+	debugLogging = false
+
+[spawn]
+	#Base chance for a newly spawned eligible mob to become a caster.
+	#Range: 0.0 ~ 1.0
+	baseSpawnChance = 0.01
+	#Additional spawn chance per effective value step.
+	#Range: 0.0 ~ 1.0
+	perValueSpawnChance = 0.07
+	#Maximum final chance for caster assignment.
+	#Range: 0.0 ~ 1.0
+	spawnChanceCap = 0.9
+	#Exact entity IDs that must never receive Superior Spellcasting caster behavior.
+	#For broad pack-level exclusions, prefer the entity type tag superior_spellcasting:spellcasting_blacklist.
+	entityBlacklist = ["born_in_chaos_v1:maggot"]
+
+[ai]
+	#Goal priority used when attaching universal casting goal.
+	#Range: 0 ~ 10
+	goalPriority = 3
+	#Minimum cooldown between casts.
+	#Range: 0 ~ 12000
+	minCastCooldownTicks = 20
+	#Maximum cooldown between casts.
+	#Range: 0 ~ 12000
+	maxCastCooldownTicks = 100
+	#Global cast frequency multiplier. 2.0 means cast twice as often (cooldowns are halved).
+	#Range: 0.1 ~ 10.0
+	castFrequencyMultiplier = 2.0
+	#Percent cooldown reduction per effective value step. 0.05 = 5% per value.
+	#Range: 0.0 ~ 1.0
+	castCooldownReductionPerValue = 0.05
+	#Minimum cooldown multiplier after scaling. 0.5 means cooldown can be reduced to 50% at most.
+	#Range: 0.01 ~ 1.0
+	castCooldownMinMultiplier = 0.5
+	#Max target range for casting decisions.
+	#Range: 1.0 ~ 128.0
+	maxCastRange = 20.0
+	#Fallback rapid burst count (used if rapidCastBurstCountByValue is invalid).
+	#Only applies to ATTACK spells with cast time < 5 ticks (0.25s). 1 disables bursts.
+	#Range: 1 ~ 100
+	rapidCastBurstCount = 5
+	#Rapid burst count per effective value band (index 0..10).
+	#Only applies to ATTACK spells with cast time < 5 ticks (0.25s).
+	#If this list is not exactly 11 values long, rapidCastBurstCount is used instead.
+	rapidCastBurstCountByValue = [1, 1, 1, 2, 3, 4, 6, 8, 12, 16, 20]
+	#When caster health fraction is <= this value, selection heavily biases DEFENSE/MOVEMENT/SUPPORT.
+	#Range: 0.0 .. 1.0 (0.35 = 35% HP).
+	#Range: 0.0 ~ 1.0
+	lowHealthThreshold = 0.35
+	#Category weight multiplier applied when below lowHealthThreshold.
+	#Range: 0.0 ~ 20.0
+	lowHealthAttackWeightMultiplier = 1.0
+	#Category weight multiplier applied when below lowHealthThreshold.
+	#Range: 0.0 ~ 20.0
+	lowHealthDefenseWeightMultiplier = 4.0
+	#Category weight multiplier applied when below lowHealthThreshold.
+	#Range: 0.0 ~ 20.0
+	lowHealthMovementWeightMultiplier = 5.0
+	#Category weight multiplier applied when below lowHealthThreshold.
+	#Range: 0.0 ~ 20.0
+	lowHealthSupportWeightMultiplier = 3.0
+	#Superior warmup before Iron spell start. 10 ticks = 0.5 seconds.
+	#Range: 0 ~ 400
+	castWarmupTicks = 10
+
+[weights]
+	#Range: 0 ~ 1000
+	attack = 8
+	#Range: 0 ~ 1000
+	defense = 3
+	#Range: 0 ~ 1000
+	movement = 2
+	#Range: 0 ~ 1000
+	support = 2
+	#Multiplier applied to spells listed in spells.quickSpellIds.
+	#Range: 0.0 ~ 20.0
+	quickSpellWeightMultiplier = 3.0
+
+[spells]
+	#Exact spell IDs that mobs must never cast.
+	spellBlacklist = ["traveloptics:tidal_grasp", "traveloptics:annihilation", "irons_spellbooks:ice_spikes", "traveloptics:abyssal_blast"]
+	#When true, spells that use SummonedEntitiesCastData are blacklisted by default.
+	#Use summoningAllowlist to permit specific summon spells.
+	blacklistSummoningSpellsByDefault = true
+	#Exact summon spell IDs that are allowed even when blacklistSummoningSpellsByDefault is true.
+	summoningAllowlist = []
+	#Exact spell IDs that should be treated as 'quick' and receive quickSpellWeightMultiplier.
+	quickSpellIds = ["irons_spellbooks:firebolt", "irons_spellbooks:firecracker", "irons_spellbooks:ball_lightning", "irons_spellbooks:gust", "irons_spellbooks:ray_of_frost", "irons_spellbooks:lightning_bolt"]
+	#Fallback schools for default profile.
+	defaultSchools = ["aqua", "blood", "eldritch", "ender", "evocation", "fire", "geo", "holy", "ice", "lightning", "nature"]
+	#Allow mobs to use the eldritch school.
+	enableEldritchMages = false
+	movementKeywords = ["dash", "step", "teleport", "portal", "evasion", "ascension"]
+	defenseKeywords = ["shield", "ward", "fortify", "oakskin", "invisibility", "counterspell", "block"]
+	supportKeywords = ["heal", "blessing", "wisp", "regeneration", "haste", "summon"]
+	#Mod IDs whose spells mobs must never cast.
+	#This compares against the spell ID namespace, for example apprenticecodex blocks apprenticecodex:any_spell.
+	modBlacklist = ["apprenticecodex", "traveloptics"]
+	#Exact spell IDs that mobs may cast normally but must never rapid-burst.
+	burstBlacklist = ["irons_spellbooks:lightning_bolt"]
+	#When true, enabled spells without spell_ai data are still included by inferring a role from configured keywords.
+	#Explicit data/superior_spellcasting/spell_ai definitions always win.
+	inferMissingSpellAiDefinitions = true
+
+[kubejs]
+	#When true, Superior Spellcasting reads a KubeJS server persistent data value and uses it as the auto-synced casting value.
+	#Manual bridge override still wins until cleared.
+	powerLevelAutoSyncEnabled = true
+	#KubeJS server persistent data key to read for auto power-level sync.
+	powerLevelKey = "power_level"
+	#How often to check the KubeJS power-level key. 100 ticks = 5 seconds.
+	#Range: 1 ~ 12000
+	powerLevelSyncIntervalTicks = 100
+	#When true, KubeJS bridge-created casters can acquire nearby survival player targets.
+	#This lets passive mobs cast after makeSpellcaster/makeSchoolSpellcaster without needing their own hostile target goal.
+	bridgeCasterTargetAcquisitionEnabled = true
+	#Target selector priority for KubeJS bridge caster player target acquisition.
+	#Range: 0 ~ 10
+	targetAcquisitionGoalPriority = 2
+	#How often KubeJS bridge casters without a valid target scan for nearby survival players.
+	#Range: 1 ~ 12000
+	targetAcquisitionScanIntervalTicks = 20
+

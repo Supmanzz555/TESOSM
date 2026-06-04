@@ -1,0 +1,13 @@
+name = "Mob Friendly Fire"
+filename = "friendlyfire_beta-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62080f3ae483fd61c2e7aef1bf4ca35eedb62136"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7324140
+project-id = 1403078

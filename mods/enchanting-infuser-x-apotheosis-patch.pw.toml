@@ -1,0 +1,13 @@
+name = "Enchanting Infuser x Apotheosis Patch"
+filename = "infuserapothcompat-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf3057eef01fe800c3815bb68c6ef9594bbb7011"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8026312
+project-id = 1446225

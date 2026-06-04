@@ -1,0 +1,13 @@
+name = "Ember's Underground Rooms - Forge / Fabric - Ancient Dungeons"
+filename = "underground_rooms-2.2-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "688fc3ad9b925d8fae36d6acf1e1e2b620a83a30"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8175731
+project-id = 1197753

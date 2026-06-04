@@ -1,0 +1,12 @@
+{
+  "_comment1": "ArsThread Expansion - Custom Armor Configuration",
+  "_comment2": "Add your custom armor here in the format: 'modid:armor_name': [slot_levels]",
+  "_comment3": "Slot levels: 1 = I, 2 = II, 3 = III",
+  "_comment4": "Examples are provided below - modify or add your own!",
+  "armor": {
+    "minecraft:diamond_helmet": [2, 1],
+    "minecraft:diamond_chestplate": [2, 1],
+    "minecraft:diamond_leggings": [2, 1],
+    "minecraft:diamond_boots": [2, 1]
+  }
+}
