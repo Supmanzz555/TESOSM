@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Changelog.md"
+hash = "d9f6afc6292c6a6b40547377e6061c00131a40643b0d98c2945a989b9b315204"
+
+[[files]]
+file = "README.md"
+hash = "a8f8f6f35bd38aef4a4bf5b597f0f813734c052660897c44ecf137a78b47b354"
+
+[[files]]
 file = "changelog.txt"
-hash = "a51f4dd7c7cdc8c398892e9e4bb4746e74d9519cab372ded06f2df5d75d49414"
+hash = "89d416c3bb085affb60515259890f177e85a31ebbe6d2f668294faca62c7aaa8"
 
 [[files]]
 file = "config/ArmorDamageLimit.toml"
@@ -2859,10 +2867,6 @@ hash = "5d14a33cfda3d4bf6b694ffb68acf01389d46e2882635c22fac80ca1b643605c"
 [[files]]
 file = "config/cataclysm/koboleton_spawns.json"
 hash = "5831a4da569ac4fb3d7d5396967281b8bdad765c25cf3cd5c6a5d708952c2b16"
-
-[[files]]
-file = "config/cataclysm_spellbooks_config.toml"
-hash = "43dad8d1d10e687ac0b54c4eadcef64042b333db1670701fce90503f0e53ae46"
 
 [[files]]
 file = "config/cavedust.toml"
@@ -5777,10 +5781,6 @@ file = "config/resourcify.json"
 hash = "ade1b4a28332a849a0b3dfe006db3d1ef22810301999316fd58a34b130968fb5"
 
 [[files]]
-file = "config/resptoken-common.toml"
-hash = "d3a91c1f1049cd555fe2ea130f3caed8b5c39c580511ae2fa4d653b94fbb91ab"
-
-[[files]]
 file = "config/right_click_get_crops-server.toml"
 hash = "178c6c1ca86d6fde97a46e63a837de2ec65780e92280470eff871606c5578048"
 
@@ -6361,10 +6361,6 @@ file = "config/twilightforest-common.toml"
 hash = "ae4d9b6a2f63f37de7630a0bc4333e3ab682a6fa713347dae899ffe512a6b9f5"
 
 [[files]]
-file = "config/tyzs_skills-common.toml"
-hash = "2cd10edff44790a90cfca2752aa8052ff15832900ad3c709b56f3c5421b75626"
-
-[[files]]
 file = "config/undeadnights_difficulty_config.json"
 hash = "c5956dd9eaddec5a311211f5c944fb00408d135d0a1dcece58dbcb463a5df82e"
 
@@ -6942,16 +6938,6 @@ hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
-file = "mods/cataclysm-bettercombat-compatibility.pw.toml"
-hash = "fe647f706c22882cf8526692bc761729ab6615b5affda4b6c12ccbab316e73de"
-metafile = true
-
-[[files]]
-file = "mods/cataclysm-spellbooks-bettercombat-compatibility.pw.toml"
-hash = "b912a595bc96f19800bf2c4887011dab248bfda787210c02dc86169404211635"
-metafile = true
-
-[[files]]
 file = "mods/cave-delight.pw.toml"
 hash = "d709a0dfad1b0708636027100a27631709ed8a88c9fbb507fbaa56aa22220f89"
 metafile = true
@@ -7034,6 +7020,11 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "58bf97ca61f74ea9a540f6e6090aef631155748c49b83a7a338b34d8dece9109"
+metafile = true
+
+[[files]]
+file = "mods/compass-to-map-xaeros.pw.toml"
+hash = "87e180996f4173f10017263c07abffe1df0037b21a819f4d9ddaa9d6a594865a"
 metafile = true
 
 [[files]]
@@ -7572,6 +7563,11 @@ hash = "c07e8d9482cbbd3fa31387e343596b979a54174f282f8a9164f02c0da3a582cd"
 metafile = true
 
 [[files]]
+file = "mods/grave-scroll.pw.toml"
+hash = "068c6a2b43ddc40cbad823e6d0b1054a777ef5eecc8618e7374527ff56b00c57"
+metafile = true
+
+[[files]]
 file = "mods/gtbcs-spelllib.pw.toml"
 hash = "1ec97f96ab381823218de184965952c48d75ae96263c5284581b937c38832f62"
 metafile = true
@@ -7768,7 +7764,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
+hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
@@ -7917,16 +7913,6 @@ hash = "6cf159e72fed52206a636034617b3af0a3a1d58d00ed7f5100ab2006c8cb0f5a"
 metafile = true
 
 [[files]]
-file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "754a03e5f088d19287fe2f25b7b3165dd4e44e294838c679b218fcac54a11b5b"
-metafile = true
-
-[[files]]
-file = "mods/macaws-windows.pw.toml"
-hash = "8ee3776430187fb4d69278e645e10fefb7fe7342caee0a5861479ce25956713a"
-metafile = true
-
-[[files]]
 file = "mods/magnesium-extras.pw.toml"
 hash = "c8c25cccf1f0c3aaa0a5639f28f40d61b4eadd3130558b39ce6c279b8b775556"
 metafile = true
@@ -7989,11 +7975,6 @@ metafile = true
 [[files]]
 file = "mods/mns-moogs-nether-structures.pw.toml"
 hash = "969b3949b7626573f29f7eace3cbf546b8f0ee814c2a005af0bd5b0b02c2991c"
-metafile = true
-
-[[files]]
-file = "mods/mob-friendly-fire.pw.toml"
-hash = "c3cd2a53246adf89cc9e28591bd942abeae5d2a4a55ac6ecb1c577649ea396dc"
 metafile = true
 
 [[files]]
@@ -8301,6 +8282,11 @@ hash = "17ea1f1bb47b49f0e582fb5dc88419dd84ce8d1ffa5f3e19ef16342f2a5b0781"
 metafile = true
 
 [[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "70214619d2e7e926da152b6cb00f2dcedadf4ce61c694a46cc86cd24b9c574fa"
+metafile = true
+
+[[files]]
 file = "mods/punchy.pw.toml"
 hash = "fa954dc9a2621299dab82db358d8cddc1c4decadd894b6176f4983d284ce05f3"
 metafile = true
@@ -8393,11 +8379,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
-metafile = true
-
-[[files]]
-file = "mods/respawn-token.pw.toml"
-hash = "e2405a21068fd7df73f933895c3f0910d52bceb7f87c95a69c0343b8f6639378"
 metafile = true
 
 [[files]]
@@ -8706,11 +8687,6 @@ hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
 metafile = true
 
 [[files]]
-file = "mods/tyzs-skills.pw.toml"
-hash = "13c5e4c0e32c7246b4332104ab65f40e016e421c924cf9229080cb061e93baa6"
-metafile = true
-
-[[files]]
 file = "mods/underground-bunkers.pw.toml"
 hash = "a4ed75a7a907f3d1ea0e112b67fcfe1623630f0ea6a260d169820120a3693139"
 metafile = true
@@ -8806,13 +8782,28 @@ hash = "06c454c5f12efa731251677de6a97baadbcd83d92ad2a42b0746683bb3d3b5c9"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-maps-x-waystones.pw.toml"
+hash = "c85cb55f01c4bf4ad3deb7355ebaed900a13c0a807e2793eda51db114753230c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "38b987b54c0b5405a89465bf16613a283740650122ac373fc365cd13afe5eb69"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "7bc86ce52ef42d948462c04658553448e5e909fb952f4b485e375d435c3ec751"
+metafile = true
+
+[[files]]
 file = "mods/xp-from-harvest-reworked.pw.toml"
 hash = "a588bd35fa0e63a29a45ac31a048c5f76e2e09a3bac54eeb987250692ed23c01"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
+hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]
@@ -8873,6 +8864,21 @@ metafile = true
 [[files]]
 file = "resourcepacks/enhanced-boss-bars.pw.toml"
 hash = "ad0205b106664eebc1defd75c9c90faa9ac28d4598883d336f41816d833c30a4"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hyper-punchy.pw.toml"
+hash = "c1a500647c961f03e2e7b52364e1deefc860f56a6fe340355a04d7b04d05e111"
+metafile = true
+
+[[files]]
+file = "resourcepacks/modded-swords-x-punchy!-v2.pw.toml"
+hash = "60b4f51620c6c1e808b5b4392f917798da99484f56844f822d8de9ed5265d6ae"
+metafile = true
+
+[[files]]
+file = "resourcepacks/punchy!-compatibility.pw.toml"
+hash = "d5143005e7e8fb7d3874bf259cb37f725a91f5c04536b756c647fd1765091085"
 metafile = true
 
 [[files]]

@@ -1,109 +1,48 @@
 # Changelog
 
-## v0.1.0-alpha
+## v0.1.1-alpha - Maps & Recovery Update
 
->Focused on mod cleanup,performance optimizations, and dependency maintenance.
+> This update focuses on replacing outdated mechanics, improving player recovery after death, and introducing map-based navigation tools. Several compatibility and decorative mods have also been removed as part of ongoing pack maintenance.
+
+### Notes
+
+* Removed the TYZ Skills system due to the project being outdated and no longer aligning with the current direction of the pack.
+* Removed Respawn Token and replaced it with The Grave Scrolls, providing a more intuitive and visually appealing recovery system.
+* Added minimap and world map functionality to improve navigation and exploration.
+* Additional balancing for map-related features will be implemented in future updates, as Xaero's mods can provide a significant amount of information to the player by default.
+* Continued maintenance and compatibility updates across the pack.
 
 ### Removed
 
-* Starcatcher
-* Almost Unified Everything
-* From the Cave
-* Too Magic and Extra
-* Cataclysm Spellbook
-* Peak Stamina
+* Respawn Token
+* Cataclysm & Better Combat Compatibility
+* Cataclysm Spellbooks & Better Combat Compatibility
+* Macaw's Fences and Walls
+* Macaw's Windows
+* Mob Friendly Fire
+* TYZ Skills
 
 ### Added
 
-#### Performance & Optimization
-
-* EMI Accelerator
-* RAMization
-* Accurate Hitboxes
-* Bandwidth Optimizer
-
-#### Libraries & Dependencies
-
-* Delight Lib
+* Xaero's Minimap
+* Xaero's World Map
+* Compass to Map
+* Xaero's Maps x Waystones
+* The Grave Scrolls
+* Modded Swords x Punch Compat (Resource Pack)
+* Modded Swords x Punch Compat V2 (Resource Pack)
+* Hyper Punchy (Resource Pack)
 
 ### Updated
 
-#### Core Gameplay
+* Curios for Ammo Box
+* L_Ender's Cataclysm
+* Varints and Ventures
 
-* TACZ
-* Advanced AE
-* Apotheosis Balanced Configurator
-* Apotheosis Modern Ragnarok
-* Aquamirae
-* Ars Noveau Spells
-* Ars Delight
-* Ars Thread Expansion
-* Born in Configuration
-* Dungeon Delight
-* Enchanting Infuser x Apotheosis
-* Goety
-* Goety Cataclysm
-* Goety Delight
-* Legendary Monsters
-* Mekanism Turrets
-* Miner's Delight
-* Mineral Delight
-* Modular Golems
-* Mystical Agriculture
-* Nether Remastered
-* Only Hammers & Excavators
-* Pufferfish Skills
-* RPG Damage Overhaul
-* Stardew Fishing
-* Superior Spellcaster
-* TACZ Tweaks
-* Tax Free Levels
-* Too Many Recipe Viewers
-* Varied Adventures & Ventures
+### Server-Side Updates
 
-#### Performance & Technical
+The following update is only required on servers and does not need to be installed on clients:
 
-* Async Logger
-* Async Particles
-* Client Sort
-* Collective
-* Deimos Lib
-* Enhanced AI
-* Entity Culling
-* Fast IP Ping
-* Immersive Optimization
-* Krypton Reforged
-* Titanium
-* ModernFix 
-
-#### Visuals & Models
-
-* Entity Model Features
-* Create Connected
-* Dungeon Now Loading
-* EMI
-* Ixeris
-* Lionfish API
-* Miniboss Bar
-* Moonlight
-* Punchy
-* TrashSlot
-
-#### Libraries & Dependencies
-
-* AzureLib
-* Forge Endertech
-* Genetum
-* Iron's Libraries
-* LootSelect
-* More Delight
-* RunicLib
-* Sophisticated Backpacks
-* Sophisticated Core
-
-
-
-
-
+* Moog's Nether Structures
 
 
