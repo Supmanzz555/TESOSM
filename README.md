@@ -7,12 +7,6 @@
 
 > **Disclaimer:** TESOSM is a fan-made Minecraft modpack. The name is currently a placeholder inspired by the film *The Eternal Sunshine of the Spotless Mind*. This project is non-commercial and is not affiliated with, endorsed by, or associated with the film, its creators, or rights holders.
 
-## Vision
-
-*A brutal exploration and boss-focused sandbox experience where the world grows more dangerous as the player grows stronger.*
-
----
-
 ## About
 
 TESOSM is a large-scale kitchen sink modpack focused on exploration, progression, and challenging combat.
@@ -31,6 +25,12 @@ The overall goal is to create a world that rewards preparation and exploration w
 
 ---
 
+## Changelog
+
+Development updates, mod additions/removals, balancing changes, and optimization improvements are documented in the project's [CHANGELOG.md](./CHANGELOG.md).
+
+changelog serves as the primary record of ongoing changes between versions.
+
 ## Design Philosophy
 
 TESOSM is **not** intended to be a progression-gated modpack.
@@ -43,22 +43,6 @@ Unlike many modern progression packs, TESOSM is not built around:
 * Mandatory progression chains
 * Extensive recipe overhauls
 * Forced mod progression
-
-Instead, the focus is on:
-
-* Exploration
-* Combat
-* Boss encounters
-* Building
-* Automation
-* Player freedom
-
-The pack is primarily developed as a hobby project for a small group of friends. As a result, development priorities are intentionally focused on the areas that provide the greatest value:
-
-* Stability
-* Compatibility
-* Performance
-* Balancing
 
 
 TESOSM is designed to remain challenging throughout the entire game.
@@ -106,7 +90,7 @@ These goals should be considered tentative and may change as development continu
 * Massive world generation expansion.
 * Hundreds of structures and points of interest.
 * Numerous bosses and endgame challenges.
-* Fabric mod support for Fabric mods.
+* Fabric mod support with sinytra connector.
 * Minimal progression restrictions.
 * Long-term sandbox gameplay.
 
@@ -160,7 +144,7 @@ Actual requirements will vary depending on player activity, automation, world ge
 
 TESOSM is currently in active development and is not yet considered ready for a public release.
 
-At this time, there are no plans to publish the pack on CurseForge or Modrinth. Many gameplay systems, balance adjustments, and progression elements are still being developed, and the overall experience is not yet representative of the intended final product.
+At this time, there are no plans to publish the pack on CurseForge or Modrinth. Many gameplay systems, balance adjustments, and progression elements are still being developed, and the overall experience is not yet representative of the intended final.
 
 The pack is currently maintained primarily for personal use and testing among a small group of players. Public distribution may be considered in the future once the pack reaches a more complete and stable state.
 
@@ -172,7 +156,6 @@ Contributions are welcome.
 
 If you encounter:
 
-* Bugs
 * Crashes (Recommended)
 * Performance issues
 * Balance concerns (Recommended)
