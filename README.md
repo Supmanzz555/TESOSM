@@ -27,7 +27,7 @@ The overall goal is to create a world that rewards preparation and exploration w
 
 ## Changelog
 
-Development updates, mod additions/removals, balancing changes, and optimization improvements are documented in the project's [CHANGELOG.md](./CHANGELOG.md).
+Development updates, mod additions/removals, balancing changes, and optimization improvements are documented in the project's [Changelog](./Changelog.md).
 
 changelog serves as the primary record of ongoing changes between versions.
 
