@@ -7273,6 +7273,11 @@ hash = "546a2e07dfe2ef19c83779b3a4123d49fa83d803a2873cb1d0d946bbb25b88ea"
 metafile = true
 
 [[files]]
+file = "mods/easy-mob-spawn-control.pw.toml"
+hash = "cf4dde7abbe95bdd7853d243c6d73d62bc36f0ba4ccfc67e32b7d2308dc4de5b"
+metafile = true
+
+[[files]]
 file = "mods/effortless-building.pw.toml"
 hash = "947e2f2067ecfad11b6fef94b6fc8e1e94ce8eeb89ed66a2ad663d6fc27b08cc"
 metafile = true
@@ -8973,6 +8978,10 @@ hash = "6abe68a2fc042c83f62d0ba8d9ca3c710828a118f9713bbafc0b11c60980244c"
 [[files]]
 file = "visual_keybinder/preset to load on first startup.txt"
 hash = "c617146feb3a041e5f73abf91698b426fb6bc36c8e95ca72d3e5faf1e11a2a58"
+
+[[files]]
+file = "visual_keybinder/presets/Default preset.preset.txt"
+hash = "87317e359a1f4b3c4c41ba2903d62f29e8674ef92a7522bf715f4a2ece6870aa"
 
 [[files]]
 file = "visual_keybinder/presets/Supman_preset.txt"
