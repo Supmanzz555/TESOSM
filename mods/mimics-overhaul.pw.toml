@@ -1,0 +1,13 @@
+name = "Mimics Overhaul"
+filename = "mimicoverhaul-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c91a5414e658c587bebcd031c5355e7c6fedbcfb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8058107
+project-id = 1536633

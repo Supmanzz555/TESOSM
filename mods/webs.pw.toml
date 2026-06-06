@@ -1,0 +1,13 @@
+name = "Web"
+filename = "web-1.0.4-1-20-0-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/y6IaGCHf/versions/1mK9t51n/web-1.0.4-1-20-0-1.jar"
+hash-format = "sha512"
+hash = "71bc4f61dd2f8ca7a26c2a523dc10844f2d5861809998549042d3ee305d2bdf2134e8f35af36cda302a518007bedb572ce6343fe7b3b196dd3f2c34db4473c70"
+
+[update]
+[update.modrinth]
+mod-id = "y6IaGCHf"
+version = "1mK9t51n"

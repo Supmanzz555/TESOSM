@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Changelog.md"
-hash = "d9f6afc6292c6a6b40547377e6061c00131a40643b0d98c2945a989b9b315204"
+hash = "ee50924d0a54199eb5611156849ea9a6d3e07d6e7ed718b5087ba52baa939940"
 
 [[files]]
 file = "README.md"
@@ -10,7 +10,7 @@ hash = "a8f8f6f35bd38aef4a4bf5b597f0f813734c052660897c44ecf137a78b47b354"
 
 [[files]]
 file = "changelog.txt"
-hash = "89d416c3bb085affb60515259890f177e85a31ebbe6d2f668294faca62c7aaa8"
+hash = "06a80ed526c7959fe6622704d00cd1f75bb5365cf1ff0c31b0ab78ae65ff00d2"
 
 [[files]]
 file = "config/ArmorDamageLimit.toml"
@@ -6126,7 +6126,7 @@ hash = "a0a5edb218d3ba301c449bab6eec341bca5eb32bfbb7517b18412526c694a82e"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "fd3900ac3ce431a33a804c4ad85db44c9e3f305585199cc20348fb41dc902bdb"
+hash = "459dadd49fa5d9feb7f869f9cba22c254e0e915391360c7964caf5bfe1f4acc9"
 
 [[files]]
 file = "config/spell_engine/client.json5"
@@ -6558,6 +6558,11 @@ hash = "d6a0a5fc44ec2396ecfe94323bbe1639aa2d7f082677d2e8b81426e2ed81d1d6"
 metafile = true
 
 [[files]]
+file = "mods/accessible-step.pw.toml"
+hash = "1057861953588169a5a25ffbe9619d8e5e12ef74fe8bc20139ab6da09c3181c0"
+metafile = true
+
+[[files]]
 file = "mods/accessories-tc-layer.pw.toml"
 hash = "d0e56f4a48cc62066e31c4e4dcfb7e0141b4b707f9106dc383370926197918fd"
 metafile = true
@@ -6713,6 +6718,11 @@ hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true
 
 [[files]]
+file = "mods/archivist-api.pw.toml"
+hash = "7f3db0d645653175105ebab73642ea0283f8610bd0142a1fa708fd809bf3489d"
+metafile = true
+
+[[files]]
 file = "mods/armor-damage-limit.pw.toml"
 hash = "ead5dd137effcd1ef308f67bde9b5530c6896504aab44c01be36fe6366b6ec44"
 metafile = true
@@ -6733,6 +6743,11 @@ hash = "3988dbd2074a7171a504bab87691175256db0e3690fde42cecbc9c47a256d31b"
 metafile = true
 
 [[files]]
+file = "mods/ars-elixirum.pw.toml"
+hash = "7c2f15a0c9319c737e57fe4d3eaff0d1c103d6ae2b765348dd4193e2c20e60b6"
+metafile = true
+
+[[files]]
 file = "mods/ars-n-spells.pw.toml"
 hash = "750a17a004a13226a3b85521aa7e1344b6fe1fde90c8b4524559d14e38621d03"
 metafile = true
@@ -6750,6 +6765,11 @@ metafile = true
 [[files]]
 file = "mods/arsthread-expansion.pw.toml"
 hash = "66dec5fd92c69cbdf3e71b09e6597b7e514ffafd3f03f9c6b065d77d2d3f5b71"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "2de33e7d757cfa1108b05247cb59f6db2f08000af824da328322d78cdb7c4c4d"
 metafile = true
 
 [[files]]
@@ -6815,6 +6835,11 @@ metafile = true
 [[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "724fe40135f0ed7f2614cd14116706686df7b092052af048dfbd109dad0c6863"
+metafile = true
+
+[[files]]
+file = "mods/bagus-lib.pw.toml"
+hash = "0a76ba81fd4a15bae2896616d5166e04c8a9e41090d3fb05fbcde9f9dd877044"
 metafile = true
 
 [[files]]
@@ -7308,6 +7333,11 @@ hash = "e4c69a3551a4343fc76fb135266aecac0042863693f04d2c58a26c71b6e988d9"
 metafile = true
 
 [[files]]
+file = "mods/enchantwithmob.pw.toml"
+hash = "0e8406940562feb8b1c8ed54320e44fa45919335a6d6dc335792c9c5283ba02b"
+metafile = true
+
+[[files]]
 file = "mods/enderchests.pw.toml"
 hash = "fa5fef8289f0d109665556cd79e9eb49c908931e1d7bc2637d04a4cba5a962ae"
 metafile = true
@@ -7488,6 +7518,11 @@ hash = "2a2f2168bf03bfa3034ad9583588676c5d66b6f7c767df9fe259ab55350792d2"
 metafile = true
 
 [[files]]
+file = "mods/fragmentum.pw.toml"
+hash = "c3362458a939382578978a7aaf7326268a28e7262451b6a732b5a1ec025de479"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
 metafile = true
@@ -7585,6 +7620,11 @@ metafile = true
 [[files]]
 file = "mods/hammer-lib.pw.toml"
 hash = "1a6b03437d3f80ac96348dc8e5f1077f3271f594a8a560c43375117fd8f176c1"
+metafile = true
+
+[[files]]
+file = "mods/hazen-n-stuff.pw.toml"
+hash = "ec05746c4605d5a172b586d56dbf00c4d52f96e61423687181f092625759de11"
 metafile = true
 
 [[files]]
@@ -7940,6 +7980,11 @@ metafile = true
 [[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "893b3e91c2165e5b3d7950ad543d6898bd3d50b7bfa411352ab0c60447c9e8e3"
+metafile = true
+
+[[files]]
+file = "mods/mimics-overhaul.pw.toml"
+hash = "cf5a8369ad23eb84bfb238a554f51081810501e8413ae677cec80ee2947eed67"
 metafile = true
 
 [[files]]
@@ -8353,7 +8398,12 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "fa3c0a19b839ec89df408368ae4886ffa36179c1973335ce7cd4654f2fa842ca"
+hash = "0e268e1e7bee1258a7bdb9f9920a62f99b61fac3cc2aacabf0c8ab907420a28c"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "671690772192603e53597b1babb855d0bfd52e400e8ea703290a4bcf2d72396c"
 metafile = true
 
 [[files]]
@@ -8752,6 +8802,16 @@ hash = "06f433aea0aa133f3aafc7aa7511d4e862d76421f0263124c2103af9ab2d21ac"
 metafile = true
 
 [[files]]
+file = "mods/webs.pw.toml"
+hash = "83fa651703b296019b20fddbcb9f5666790c6648dfc95f3912545928488538b6"
+metafile = true
+
+[[files]]
+file = "mods/wet-sand.pw.toml"
+hash = "5f318344b4ad4d11ab7226219f35250ec091b109025deac108fb3d6a56bb805d"
+metafile = true
+
+[[files]]
 file = "mods/when-dungeons-arise-seven-seas.pw.toml"
 hash = "0b03ce76554551677c7c083f468c789739b4837b015232b89b6f4d9378a42766"
 metafile = true
@@ -8779,6 +8839,11 @@ metafile = true
 [[files]]
 file = "mods/wither-storm-combat.pw.toml"
 hash = "06c454c5f12efa731251677de6a97baadbcd83d92ad2a42b0746683bb3d3b5c9"
+metafile = true
+
+[[files]]
+file = "mods/wits.pw.toml"
+hash = "4d949b696cb80dea8ffa799fae89b3d20b62503386e8e4067224689f79b7b695"
 metafile = true
 
 [[files]]

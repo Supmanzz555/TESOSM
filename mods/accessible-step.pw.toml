@@ -1,0 +1,13 @@
+name = "Accessible Step"
+filename = "accessible-step-forge-mc1.20.1-2.1.1+1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/z6d6n7ve/versions/u7ZJ2FpX/accessible-step-forge-mc1.20.1-2.1.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "eed5edb4b447f0b3167ec1e9097846c869ac435a47f5f7245afe29458faf13f6ae9e997b4bee6f983d5d10cdc915fb9f1059170058a657aa6a560c731aee52dc"
+
+[update]
+[update.modrinth]
+mod-id = "z6d6n7ve"
+version = "u7ZJ2FpX"

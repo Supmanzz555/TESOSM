@@ -1,0 +1,13 @@
+name = "Wet sand"
+filename = "wet-sand-beta-0.0.4-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aCchvKq6/versions/1GLK4Jot/wet-sand-beta-0.0.4-1.20.1.jar"
+hash-format = "sha512"
+hash = "4052ffa885bd8807276cb306d9bb10e744f6578f54cbc4e12a93f59167d8f7515444bc2cbc392023c76e5583938aab5c0ccd0927d0126c34182612ba83b8c2c8"
+
+[update]
+[update.modrinth]
+mod-id = "aCchvKq6"
+version = "1GLK4Jot"
