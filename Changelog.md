@@ -1,30 +1,30 @@
 # Changelog
 
-## Mini Update
-
-
 ### Added
 
-* Ars Elixrium
-* Mimic Overhaul
-* Enchant With Mob
-* Web
-* Better Combat: Heavier Weapons
-* Accessible Step
-* WetSand
-* Artifacts
-* Reliquified Artifacts
-* Hazen N Stuff
-* What Is This Structure (WITS)
+* Visual Health
+* Skeletons Use Custom Bows
+* Medium Core
+* Medium Core Fix
+* Create Stuff 'N Additions
+* Doctor Who: Weeping Angels
 
 ### Updated
 
-* Bandwidth Optimizer
+* Collective
+* Create Central Kitchen
+* Goety
+* GuideME
+* Iron's Libraries
+* Iron's Spells 'n Spellbooks
+* Moonlight
+* Sophisticated Backpacks
+* Sophisticated Core
+* TACZ Addon
+* Tax Free Levels
 
-### Server-Side Updates
+### Configuration Changes
 
-The following update is only required on servers and does not need to be installed on clients:
-
-* Neruina
+* Limited **Weeping Angel** spawning to a maximum of **one per chunk**.
 
 
