@@ -1,0 +1,13 @@
+name = "Visual Health"
+filename = "visualhealth-forge-1.20.1-2.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/X01iuqRJ/versions/8Sol10TD/visualhealth-forge-1.20.1-2.0.1.jar"
+hash-format = "sha512"
+hash = "e98e1afc0fc746e373a8445bc8dc6695cf81f3941cc44e82c467099ccab55f0d256a4a158966206420c5bc3a38ebff12194095c4ff53c6df306645150ccb4bfd"
+
+[update]
+[update.modrinth]
+mod-id = "X01iuqRJ"
+version = "8Sol10TD"

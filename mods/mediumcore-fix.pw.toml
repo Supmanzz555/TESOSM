@@ -1,0 +1,13 @@
+name = "Mediumcore Fix"
+filename = "mediumcore_fix-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0437ff2f2cd03833d91250a02e8a2c12f836dac0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7481642
+project-id = 1435232

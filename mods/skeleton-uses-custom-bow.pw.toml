@@ -1,0 +1,13 @@
+name = "Skeleton Uses Custom Bow"
+filename = "skeletonusescustombow-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nDwobOSk/versions/TpbLxf3y/skeletonusescustombow-1.0.1.jar"
+hash-format = "sha512"
+hash = "e3e8e325b3dcaf5657c03e7ef8fc33705d07da78030bf66ed4dee7e66818b23372d87cc6ed7d3744c1f495d839d60b95e8f8dacfc3cfb6785269029da0859f76"
+
+[update]
+[update.modrinth]
+mod-id = "nDwobOSk"
+version = "TpbLxf3y"

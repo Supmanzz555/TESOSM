@@ -10,7 +10,7 @@ hash = "a8f8f6f35bd38aef4a4bf5b597f0f813734c052660897c44ecf137a78b47b354"
 
 [[files]]
 file = "changelog.txt"
-hash = "06a80ed526c7959fe6622704d00cd1f75bb5365cf1ff0c31b0ab78ae65ff00d2"
+hash = "f8e896c1a8434585b9d76c1fc7128b08098a41ee7734422f32bb198458d7fcda"
 
 [[files]]
 file = "config/ArmorDamageLimit.toml"
@@ -6608,6 +6608,11 @@ hash = "99f6d4e46f784953d16aa1ce5f72327b21487dc0e27d3143c8a6b60c6d02381a"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mediumcore.pw.toml"
+hash = "4cabf5c2fc3c00efb6fe7b6b2e1154d7f11bce03d5b0dedb5243a2f8277b2c9d"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
@@ -7120,6 +7125,11 @@ metafile = true
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
 hash = "5e089d5e4d8d6ea70d491137d1aa5b7bec7883e0e795998a0d3a00fafec9f24d"
+metafile = true
+
+[[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "de446c59715a62446ce6347cc3f05ab781069ef301533a6207a83d898e4b142f"
 metafile = true
 
 [[files]]
@@ -7968,6 +7978,11 @@ hash = "b385581d5236f3fe55c87d0f2e5f207825c3bce6f13d6d1099b6e21d66723fd1"
 metafile = true
 
 [[files]]
+file = "mods/mediumcore-fix.pw.toml"
+hash = "ede884f5f4196c6b55281d8b4e53a90613f7f5486f7b0286be834bcd92bc7c31"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "a76a1f1d2139ebe5c31c628ed4bb01f3795cfae931dda4093047260507bbfd43"
 metafile = true
@@ -8522,6 +8537,11 @@ hash = "a04bd2dd28cdefdd4ab1cd38c477132dc452349c90faff9c1beb99c254b68d9c"
 metafile = true
 
 [[files]]
+file = "mods/skeleton-uses-custom-bow.pw.toml"
+hash = "17f91f54035942bb3067500724ea5d14d5229b66e8955556aa06f406a9e758ce"
+metafile = true
+
+[[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "9b59e9b08c1281a521777e9924dab6c258e42c5d1c06852b9ebe9304021aec42"
 metafile = true
@@ -8782,6 +8802,11 @@ hash = "0d1a0a24a2d759c48bb1daa4b1bf27df514c91a4ff9a2c87df20ed5ce9ae809a"
 metafile = true
 
 [[files]]
+file = "mods/visualhealth.pw.toml"
+hash = "ab0bfde7b9836c4b2a0f2d5c7df10f92aeee37c7657df9022d6db370b9898aec"
+metafile = true
+
+[[files]]
 file = "mods/void-fog.pw.toml"
 hash = "f80cea57ffa5ace9ba7ebf87173b39ed78aebd5322dd9ebeca3216425330f454"
 metafile = true
@@ -8809,6 +8834,11 @@ metafile = true
 [[files]]
 file = "mods/webs.pw.toml"
 hash = "83fa651703b296019b20fddbcb9f5666790c6648dfc95f3912545928488538b6"
+metafile = true
+
+[[files]]
+file = "mods/weeping-angels.pw.toml"
+hash = "2d94aaef69e56f6507b094b5e74a246ff23696ba3e53b20748003acb16ae589b"
 metafile = true
 
 [[files]]
